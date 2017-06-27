@@ -27,7 +27,7 @@ public class MailUtil  {
     }  
 
     public void sendMail(Set<String> mail) {
-        String from = "604552732@qq.com";// 发件人电子邮箱
+        String from = "XXXXX";// 发件人电子邮箱
         String host = "smtp.qq.com"; // 指定发送邮件的主机smtp.qq.com(QQ)|smtp.163.com(网易)
 
         Properties properties =new Properties();
@@ -45,7 +45,7 @@ public class MailUtil  {
             // 1.获取默认session对象
             Session session = Session.getDefaultInstance(properties, new Authenticator() {
                 public PasswordAuthentication getPasswordAuthentication() {
-                    return new PasswordAuthentication("604552732@qq.com", "fgxqlnhazbumbfaa"); // 发件人邮箱账号、授权码
+                    return new PasswordAuthentication("XXXXX", "XXXXXX"); // 发件人邮箱账号、授权码
                 }
             });
 
