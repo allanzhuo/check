@@ -1,3 +1,9 @@
+Java to achieve the server's automatic inspection, fault notification. Easy to operate on a few files, to avoid the mature software installation steps.
+
+cause:
+
+Before the manual has been patrol server, and then map, the recent increase in the number of servers, a little busy to come. Because it has been used java, the shell script is not a special understanding, so this time with java wrote a small project to achieve multi-server, multi-task patrol, inspection results are faulty by e-mail notification.
+
 java实现服务器的自动巡检，故障通知。
 操作简单就几个文件，避免了成熟软件的冗陈安装步骤。
 
